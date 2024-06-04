@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Store</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html">
+            <img class="header__logo" src="/img/logo.png" alt="logo_pagina_web">
+        </a>
+    </header>
+
+    <nav class="nav">
+        <a class="nav__link nav__link--activo" href="/index.html">Tienda</a>
+        <a class="nav__link" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>
+            Bulma css
+        </h1>
+
+        <div class="camiseta">
+
+            <img src="/img/9.jpg" alt="imagen_camiseta-bulma" class="camiseta__imagen">
+
+            <div class="camiseta__contenido">
+                <p class="camiseta__contenido--text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusamus recusandae laborum officia
+                    doloribus dolor fugiat praesentium vitae impedit aut nisi exercitationem, sit reiciendis aperiam
+                    ratione, neque doloremque, iusto repudiandae.
+                </p>
+
+                <form class="formulario">
+                    <select class="formulario__talla" name="formulario__talla" id="talla">
+                        <option disabled selected>
+                            --> Seleccionar Talla <--
+                        </option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+
+                    <input class="formulario__cantidad" min="1" placeholder="cantidad" type="number" name="cantidad" id="cantidad">
+
+                    <button class="formulario__boton">Agregar al Carrito</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store - Todos los derechos reservados 2024.
+        </p>
+    </footer>
+</body>
+
+</html>
