@@ -7,6 +7,7 @@
     <title>Front-End Store</title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -40,14 +41,14 @@
                 <form class="formulario">
                     <select class="formulario__talla" name="formulario__talla" id="talla">
                         <option disabled selected>
-                            --> Seleccionar Talla <--
-                        </option>
+                            --> Seleccionar Talla <-- </option>
                         <option>Chica</option>
                         <option>Mediana</option>
                         <option>Grande</option>
                     </select>
 
-                    <input class="formulario__cantidad" min="1" placeholder="cantidad" type="number" name="cantidad" id="cantidad">
+                    <input class="formulario__cantidad" min="1" placeholder="cantidad" type="number" name="cantidad"
+                        id="cantidad">
 
                     <button class="formulario__boton">Agregar al Carrito</button>
                 </form>
@@ -56,9 +57,31 @@
     </main>
 
     <footer class="footer">
-        <p class="footer__text">Front End Store - Todos los derechos reservados 2024.
+        <p class="footer__text">
+            Front End Store - Todos los derechos reservados 2024.
+            <br>
         </p>
+
+        <div class="footer__text--created">
+            Created by Renzo2099:
+        </div>
+
+        <div class="footer__title--github">
+            <a href="#" onclick="window.open('https://github.com/Renzo2O99', '_blank'); return false;">
+                <img class="footer__text--github" src="/img/icono_github.png" alt="icono_github">
+            </a>
+        </div>
+
+        <div class="footer__title--repositorio">
+            <a href="#"
+                onclick="window.open('https://github.com/Renzo2O99/Front-End-Store--Aliendro-Renzo.', '_blank'); return false;">
+                <img class="footer__text--repositorio" src="/img/icono_repositorio_github.png"
+                    alt="icono_repositorio_github">
+            </a>
+        </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 
 </html>
